@@ -26,7 +26,7 @@ public class TestMain {
 		//request.setBodyText("{\"data\":{\"username\":\"hacker\",\"password\":\"l3tm3In\"}}");
 		
 		request.setUri("/v1/people/me");
-	    request.addRequestHeaders("Authorization", "Bearer MzA5ODA4OTUtNDBjYi00NzhlLTg3NDYtOTEyNWMyNzRmM2NiMDBiMDU5ZGUtMDZl");
+	    request.addRequestHeaders("Authorization", "Bearer l");
 	 
 		
 		
