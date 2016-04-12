@@ -17,8 +17,8 @@ public class TestMain {
 		//System.setProperty("https.protocols", "TLSv1.1");
 		
 		request.addContentTypeHeader(HttpRequestConstants.CONTENT_TYPE_JSON);
-		request.setProxyServer("proxy.esl.cisco.com");
-		request.setProxyPort(8080);
+		//request.setProxyServer("proxy.esl.cisco.com");
+		//request.setProxyPort(8080);
 		
 		//request.addRequestHeaders("X-Cloupia-Request-Key", "1234567890");
 		//request.setUri("/v1/tokens");
@@ -26,7 +26,7 @@ public class TestMain {
 		//request.setBodyText("{\"data\":{\"username\":\"hacker\",\"password\":\"l3tm3In\"}}");
 		
 		request.setUri("/v1/people/me");
-	    request.addRequestHeaders("Authorization", "Bearer l");
+	    request.addRequestHeaders("Authorization", "Bearer k");
 	 
 		
 		

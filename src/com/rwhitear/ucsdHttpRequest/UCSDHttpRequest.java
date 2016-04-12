@@ -3,8 +3,6 @@ package com.rwhitear.ucsdHttpRequest;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import javax.net.ssl.SSLContext;
-
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpException;
 import org.apache.commons.httpclient.HttpState;
