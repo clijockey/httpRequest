@@ -190,7 +190,6 @@ public class UCSDHttpRequest {
 		
 		// Setup proxy config if passed
 		if (this.proxyServer != null) {
-			//client.getHostConfiguration().setProxy(this.proxyServer, this.proxyPort);
 			System.setProperty("http.proxyHost", this.proxyServer);
 			System.setProperty("http.proxyPort", Integer.toString(this.proxyPort));
 			if ((this.proxyUser != null) && (this.proxyPass != null)) {
